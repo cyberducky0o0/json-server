@@ -30,7 +30,7 @@ module.exports = function (opts) {
     // only use in development
     arr.push(errorhandler())
   }
-
+  // always serving
   // Serve static files
   arr.push(express.static(opts.static))
 
