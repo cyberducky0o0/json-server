@@ -18,7 +18,7 @@ module.exports = (obj) => {
   } else {
     throw new Error(
       `Data must be an object. Found ${typeof obj}.` +
-        'See https://github.com/typicode/json-server for example.'
+        ' have made it to cali, check me out on the highways, I-15 : North of California Oaks Road, 33.1736981,-117.2397156'
     )
   }
 }
